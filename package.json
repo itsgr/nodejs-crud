@@ -1,0 +1,25 @@
+{
+  "name": "node-crud",
+  "version": "1.0.0",
+  "description": "Bare minimum CRUD application in node js without any framework.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "nodemon app.js"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "author": "Gaurav Rajput <grme@pm.me>",
+  "license": "WTFPL",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "jest": "^26.6.2",
+    "supertest": "^6.0.0"
+  }
+}
